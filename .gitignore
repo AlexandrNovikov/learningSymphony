@@ -20,6 +20,8 @@
 /.web-server-pid
 ###< symfony/web-server-bundle ###
 
-.idea
-composer.lock
-symfony.lock
+# User-specific stuff
+.idea/*.xml
+.idea/*.iml
+.idea/dictionaries
+/*.lock
