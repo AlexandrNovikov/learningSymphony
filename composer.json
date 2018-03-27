@@ -31,7 +31,7 @@
         "symfony/dotenv": "^4.0",
         "symfony/maker-bundle": "^1.0",
         "symfony/phpunit-bridge": "^4.0",
-        "symfony/profiler-pack": "*",
+        "symfony/profiler-pack": "^1.0",
         "symfony/web-server-bundle": "^4.0"
     },
     "config": {
@@ -76,6 +76,6 @@
             "id": "",
             "allow-contrib": false
         },
-        "symfony.id": "01C9MEJ2VXF7HP7SS4GY3SPAFD"
+        "symfony.id": "01C9MGQRH3ZVMR81PYFKM0V32C"
     }
 }
