@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}My TODO list{% endblock %}
+
+{% block body %}
+    <h1>TODO LIST</h1>
+    {% for task in myArr %}
+        <h2><a href="{{ path('task_show', {'taskId': task.id}) }}">{{ task.id }}. {{ task.task }}</a></h2>
+    {% endfor %}
+{% endblock %}

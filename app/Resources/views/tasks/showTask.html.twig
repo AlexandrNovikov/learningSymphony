@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}My task{% endblock %}
+
+{% block body %}
+    <h2>My task is {{ taskText }}</h2>
+    <h3>Due date for this task is {{ taskDate }}</h3>
+    <a href="{{ path('task_delete', {'taskId': taskId}) }}">DELETE</a>
+    <a href="{{ path('task_edit', {'taskId': taskId}) }}">EDIT</a>
+{% endblock %}
